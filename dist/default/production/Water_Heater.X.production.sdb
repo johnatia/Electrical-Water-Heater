@@ -1,0 +1,629 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"11 D:\engazat\EmbeddedSystem\currently\interface\SwiftActProject\Water_Heater.X\ADC.c
+[v _ADC_INIT ADC_INIT `(v  1 e 1 0 ]
+"21
+[v _ADC_Read ADC_Read `(us  1 e 2 0 ]
+"12 D:\engazat\EmbeddedSystem\currently\interface\SwiftActProject\Water_Heater.X\BUTTONS.c
+[v _Buttons_INIT Buttons_INIT `(v  1 e 1 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+[v i1___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"19 D:\engazat\EmbeddedSystem\currently\interface\SwiftActProject\Water_Heater.X\EX_EEPROM.c
+[v _EEPROM_Write EEPROM_Write `(v  1 e 1 0 ]
+"28
+[v _EEPROM_Read EEPROM_Read `(v  1 e 1 0 ]
+"14 D:\engazat\EmbeddedSystem\currently\interface\SwiftActProject\Water_Heater.X\EX_INT.c
+[v _EX_Interrupt_INIT EX_Interrupt_INIT `(v  1 e 1 0 ]
+"23
+[v _ISR ISR `II(v  1 e 1 0 ]
+"13 D:\engazat\EmbeddedSystem\currently\interface\SwiftActProject\Water_Heater.X\HEATER_AND_COOLER.c
+[v _Heating_and_Cooling_INIT Heating_and_Cooling_INIT `(v  1 e 1 0 ]
+"19
+[v _Disable_Heating_and_Cooling Disable_Heating_and_Cooling `(v  1 e 1 0 ]
+"26
+[v _Heating_and_Cooling Heating_and_Cooling `(v  1 e 1 0 ]
+"11 D:\engazat\EmbeddedSystem\currently\interface\SwiftActProject\Water_Heater.X\I2C.c
+[v _Wait_IdleState Wait_IdleState `(v  1 e 1 0 ]
+[v i1_Wait_IdleState Wait_IdleState `(v  1 e 1 0 ]
+"15
+[v _Master_INIT Master_INIT `(v  1 e 1 0 ]
+"24
+[v _I2C_Start I2C_Start `(v  1 e 1 0 ]
+[v i1_I2C_Start I2C_Start `(v  1 e 1 0 ]
+"29
+[v _I2C_Repeated_Start I2C_Repeated_Start `(v  1 e 1 0 ]
+"34
+[v _I2C_Stop I2C_Stop `(v  1 e 1 0 ]
+[v i1_I2C_Stop I2C_Stop `(v  1 e 1 0 ]
+"40
+[v _I2C_ACK I2C_ACK `(v  1 e 1 0 ]
+"47
+[v _I2C_NACK I2C_NACK `(v  1 e 1 0 ]
+"54
+[v _I2C_Write_Address I2C_Write_Address `(v  1 e 1 0 ]
+[v i1_I2C_Write_Address I2C_Write_Address `(v  1 e 1 0 ]
+"60
+[v _I2C_Write_Data I2C_Write_Data `(v  1 e 1 0 ]
+[v i1_I2C_Write_Data I2C_Write_Data `(v  1 e 1 0 ]
+"70
+[v _I2C_Read_Data I2C_Read_Data `(uc  1 e 1 0 ]
+"57 D:\engazat\EmbeddedSystem\currently\interface\SwiftActProject\Water_Heater.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"102
+[v _decrease_Temp decrease_Temp `(v  1 e 1 0 ]
+"119
+[v _increase_Temp increase_Temp `(v  1 e 1 0 ]
+"155
+[v _ISR_CallBack ISR_CallBack `(v  1 e 1 0 ]
+"14 D:\engazat\EmbeddedSystem\currently\interface\SwiftActProject\Water_Heater.X\SSD.c
+[v _SSD_INIT SSD_INIT `(v  1 e 1 0 ]
+"21
+[v _Disable_Display Disable_Display `(v  1 e 1 0 ]
+"28
+[v _Seperate_Num Seperate_Num `(v  1 e 1 0 ]
+"35
+[v _Select_Digit Select_Digit `(v  1 e 1 0 ]
+"52
+[v _Display_Num Display_Num `(v  1 e 1 0 ]
+"17 D:\engazat\EmbeddedSystem\currently\interface\SwiftActProject\Water_Heater.X\TEMP_SENSOR.c
+[v _Sense_Temp Sense_Temp `(f  1 e 4 0 ]
+"12 D:\engazat\EmbeddedSystem\currently\interface\SwiftActProject\Water_Heater.X\Timer.c
+[v _Timer_INIT Timer_INIT `(v  1 e 1 0 ]
+[s S160 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+]
+"181 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[u S167 . 1 `S160 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES167  1 e 1 @5 ]
+[s S71 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"233
+[u S80 . 1 `S71 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES80  1 e 1 @6 ]
+"340
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"634
+[v _TMR1 TMR1 `VEus  1 e 2 @14 ]
+"808
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
+"1152
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1375
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1754
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @145 ]
+"1823
+[v _SSPADD SSPADD `VEuc  1 e 1 @147 ]
+"1830
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @148 ]
+"2222
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"2374
+[v _ACKDT ACKDT `VEb  1 e 0 @1165 ]
+"2377
+[v _ACKEN ACKEN `VEb  1 e 0 @1164 ]
+"2380
+[v _ACKSTAT ACKSTAT `VEb  1 e 0 @1166 ]
+"2389
+[v _ADCS2 ADCS2 `VEb  1 e 0 @1278 ]
+"2395
+[v _ADFM ADFM `VEb  1 e 0 @1279 ]
+"2404
+[v _ADON ADON `VEb  1 e 0 @248 ]
+"2485
+[v _CHS1 CHS1 `VEb  1 e 0 @252 ]
+"2569
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"2575
+[v _GO_DONE GO_DONE `VEb  1 e 0 @250 ]
+"2578
+[v _GO_nDONE GO_nDONE `VEb  1 e 0 @250 ]
+"2599
+[v _INTE INTE `VEb  1 e 0 @92 ]
+"2602
+[v _INTEDG INTEDG `VEb  1 e 0 @1038 ]
+"2605
+[v _INTF INTF `VEb  1 e 0 @89 ]
+"2617
+[v _PCFG0 PCFG0 `VEb  1 e 0 @1272 ]
+"2626
+[v _PCFG3 PCFG3 `VEb  1 e 0 @1275 ]
+"2629
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"2632
+[v _PEN PEN `VEb  1 e 0 @1162 ]
+"2695
+[v _RB7 RB7 `VEb  1 e 0 @55 ]
+"2710
+[v _RC2 RC2 `VEb  1 e 0 @58 ]
+"2719
+[v _RC5 RC5 `VEb  1 e 0 @61 ]
+"2737
+[v _RCEN RCEN `VEb  1 e 0 @1163 ]
+"2791
+[v _RSEN RSEN `VEb  1 e 0 @1161 ]
+"2806
+[v _SEN SEN `VEb  1 e 0 @1160 ]
+"2818
+[v _SSPEN SSPEN `VEb  1 e 0 @165 ]
+"2824
+[v _SSPIF SSPIF `VEb  1 e 0 @99 ]
+"2836
+[v _SSPM3 SSPM3 `VEb  1 e 0 @163 ]
+"2884
+[v _TMR1CS TMR1CS `VEb  1 e 0 @129 ]
+"2887
+[v _TMR1IE TMR1IE `VEb  1 e 0 @1120 ]
+"2890
+[v _TMR1IF TMR1IF `VEb  1 e 0 @96 ]
+"2893
+[v _TMR1ON TMR1ON `VEb  1 e 0 @128 ]
+"2929
+[v _TRISA4 TRISA4 `VEb  1 e 0 @1068 ]
+"2932
+[v _TRISA5 TRISA5 `VEb  1 e 0 @1069 ]
+"2935
+[v _TRISB0 TRISB0 `VEb  1 e 0 @1072 ]
+"2938
+[v _TRISB1 TRISB1 `VEb  1 e 0 @1073 ]
+"2941
+[v _TRISB2 TRISB2 `VEb  1 e 0 @1074 ]
+"2956
+[v _TRISB7 TRISB7 `VEb  1 e 0 @1079 ]
+"2965
+[v _TRISC2 TRISC2 `VEb  1 e 0 @1082 ]
+"2968
+[v _TRISC3 TRISC3 `VEb  1 e 0 @1083 ]
+"2971
+[v _TRISC4 TRISC4 `VEb  1 e 0 @1084 ]
+"2974
+[v _TRISC5 TRISC5 `VEb  1 e 0 @1085 ]
+"12 D:\engazat\EmbeddedSystem\currently\interface\SwiftActProject\Water_Heater.X\EX_INT.c
+[v _EX_INT_CallBack EX_INT_CallBack `*.27(v  1 e 1 0 ]
+"43 D:\engazat\EmbeddedSystem\currently\interface\SwiftActProject\Water_Heater.X\main.c
+[v _Temperature Temperature `uc  1 e 1 0 ]
+"44
+[v _current_Temp current_Temp `f  1 e 4 0 ]
+"45
+[v _INT1 INT1 `uc  1 e 1 0 ]
+"46
+[v _INT2 INT2 `uc  1 e 1 0 ]
+"47
+[v _Sec1 Sec1 `ui  1 e 2 0 ]
+"48
+[v _Sec5 Sec5 `ui  1 e 2 0 ]
+"49
+[v _Setting_Mode Setting_Mode `uc  1 e 1 0 ]
+"50
+[v _Sleep_Mode Sleep_Mode `a  1 e 1 0 ]
+"10 D:\engazat\EmbeddedSystem\currently\interface\SwiftActProject\Water_Heater.X\SSD.c
+[v _SetNum SetNum `[10]uc  1 e 10 0 ]
+"11
+[v _Num_Digit Num_Digit `[2]uc  1 e 2 0 ]
+"12
+[v _Select_Seg Select_Seg `uc  1 e 1 0 ]
+"57 D:\engazat\EmbeddedSystem\currently\interface\SwiftActProject\Water_Heater.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"98
+} 0
+"12 D:\engazat\EmbeddedSystem\currently\interface\SwiftActProject\Water_Heater.X\Timer.c
+[v _Timer_INIT Timer_INIT `(v  1 e 1 0 ]
+{
+"21
+} 0
+"14 D:\engazat\EmbeddedSystem\currently\interface\SwiftActProject\Water_Heater.X\SSD.c
+[v _SSD_INIT SSD_INIT `(v  1 e 1 0 ]
+{
+"20
+} 0
+"15 D:\engazat\EmbeddedSystem\currently\interface\SwiftActProject\Water_Heater.X\I2C.c
+[v _Master_INIT Master_INIT `(v  1 e 1 0 ]
+{
+[v Master_INIT@I2C_BaudRate I2C_BaudRate `ul  1 p 4 14 ]
+"23
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 9 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 13 ]
+"5
+[v ___lldiv@divisor divisor `ul  1 p 4 0 ]
+[v ___lldiv@dividend dividend `ul  1 p 4 4 ]
+"30
+} 0
+"13 D:\engazat\EmbeddedSystem\currently\interface\SwiftActProject\Water_Heater.X\HEATER_AND_COOLER.c
+[v _Heating_and_Cooling_INIT Heating_and_Cooling_INIT `(v  1 e 1 0 ]
+{
+"18
+} 0
+"26
+[v _Heating_and_Cooling Heating_and_Cooling `(v  1 e 1 0 ]
+{
+[v Heating_and_Cooling@current_Temp current_Temp `*.5f  1 a 1 wreg ]
+[v Heating_and_Cooling@current_Temp current_Temp `*.5f  1 a 1 wreg ]
+[v Heating_and_Cooling@Temperature Temperature `*.5uc  1 p 1 26 ]
+"28
+[v Heating_and_Cooling@current_Temp current_Temp `*.5f  1 a 1 31 ]
+"46
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 14 ]
+[v ___flge@ff2 ff2 `d  1 p 4 18 ]
+"19
+} 0
+"14 D:\engazat\EmbeddedSystem\currently\interface\SwiftActProject\Water_Heater.X\EX_INT.c
+[v _EX_Interrupt_INIT EX_Interrupt_INIT `(v  1 e 1 0 ]
+{
+[v EX_Interrupt_INIT@PtrToFunc PtrToFunc `*.27(v  1 a 1 wreg ]
+[v EX_Interrupt_INIT@PtrToFunc PtrToFunc `*.27(v  1 a 1 wreg ]
+"16
+[v EX_Interrupt_INIT@PtrToFunc PtrToFunc `*.27(v  1 a 1 0 ]
+"21
+} 0
+"28 D:\engazat\EmbeddedSystem\currently\interface\SwiftActProject\Water_Heater.X\EX_EEPROM.c
+[v _EEPROM_Read EEPROM_Read `(v  1 e 1 0 ]
+{
+[v EEPROM_Read@page page `uc  1 a 1 wreg ]
+[v EEPROM_Read@page page `uc  1 a 1 wreg ]
+[v EEPROM_Read@address address `uc  1 p 1 1 ]
+[v EEPROM_Read@Data Data `*.5uc  1 p 1 2 ]
+"30
+[v EEPROM_Read@page page `uc  1 a 1 3 ]
+"38
+} 0
+"60 D:\engazat\EmbeddedSystem\currently\interface\SwiftActProject\Water_Heater.X\I2C.c
+[v _I2C_Write_Data I2C_Write_Data `(v  1 e 1 0 ]
+{
+[v I2C_Write_Data@Data Data `uc  1 a 1 wreg ]
+[v I2C_Write_Data@Data Data `uc  1 a 1 wreg ]
+"62
+[v I2C_Write_Data@Data Data `uc  1 a 1 0 ]
+"69
+} 0
+"54
+[v _I2C_Write_Address I2C_Write_Address `(v  1 e 1 0 ]
+{
+[v I2C_Write_Address@Address Address `uc  1 a 1 wreg ]
+[v I2C_Write_Address@Address Address `uc  1 a 1 wreg ]
+"56
+[v I2C_Write_Address@Address Address `uc  1 a 1 0 ]
+"59
+} 0
+"34
+[v _I2C_Stop I2C_Stop `(v  1 e 1 0 ]
+{
+"39
+} 0
+"24
+[v _I2C_Start I2C_Start `(v  1 e 1 0 ]
+{
+"28
+} 0
+"70
+[v _I2C_Read_Data I2C_Read_Data `(uc  1 e 1 0 ]
+{
+"79
+} 0
+"47
+[v _I2C_NACK I2C_NACK `(v  1 e 1 0 ]
+{
+"53
+} 0
+"11
+[v _Wait_IdleState Wait_IdleState `(v  1 e 1 0 ]
+{
+"14
+} 0
+"12 D:\engazat\EmbeddedSystem\currently\interface\SwiftActProject\Water_Heater.X\BUTTONS.c
+[v _Buttons_INIT Buttons_INIT `(v  1 e 1 0 ]
+{
+"16
+} 0
+"11 D:\engazat\EmbeddedSystem\currently\interface\SwiftActProject\Water_Heater.X\ADC.c
+[v _ADC_INIT ADC_INIT `(v  1 e 1 0 ]
+{
+"19
+} 0
+"23 D:\engazat\EmbeddedSystem\currently\interface\SwiftActProject\Water_Heater.X\EX_INT.c
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"26
+} 0
+"155 D:\engazat\EmbeddedSystem\currently\interface\SwiftActProject\Water_Heater.X\main.c
+[v _ISR_CallBack ISR_CallBack `(v  1 e 1 0 ]
+{
+"171
+[v ISR_CallBack@Temp_average Temp_average `[10]f  1 a 40 0 ]
+"172
+[v ISR_CallBack@i i `uc  1 s 1 i ]
+"173
+[v ISR_CallBack@Heating_LED_Flag Heating_LED_Flag `ui  1 s 2 Heating_LED_Flag ]
+"174
+[v ISR_CallBack@Milli_Sec Milli_Sec `uc  1 s 1 Milli_Sec ]
+"249
+} 0
+"119
+[v _increase_Temp increase_Temp `(v  1 e 1 0 ]
+{
+"133
+} 0
+"102
+[v _decrease_Temp decrease_Temp `(v  1 e 1 0 ]
+{
+"116
+} 0
+"19 D:\engazat\EmbeddedSystem\currently\interface\SwiftActProject\Water_Heater.X\EX_EEPROM.c
+[v _EEPROM_Write EEPROM_Write `(v  1 e 1 0 ]
+{
+[v EEPROM_Write@page page `uc  1 a 1 wreg ]
+[v EEPROM_Write@page page `uc  1 a 1 wreg ]
+[v EEPROM_Write@address address `uc  1 p 1 1 ]
+[v EEPROM_Write@Data Data `uc  1 p 1 2 ]
+"21
+[v EEPROM_Write@page page `uc  1 a 1 3 ]
+"26
+} 0
+"60 D:\engazat\EmbeddedSystem\currently\interface\SwiftActProject\Water_Heater.X\I2C.c
+[v i1_I2C_Write_Data I2C_Write_Data `(v  1 e 1 0 ]
+{
+[v i1I2C_Write_Data@Data Data `uc  1 a 1 wreg ]
+[v i1I2C_Write_Data@Data Data `uc  1 a 1 wreg ]
+"62
+[v i1I2C_Write_Data@Data Data `uc  1 a 1 0 ]
+"69
+} 0
+"54
+[v i1_I2C_Write_Address I2C_Write_Address `(v  1 e 1 0 ]
+{
+[v i1I2C_Write_Address@Address Address `uc  1 a 1 wreg ]
+[v i1I2C_Write_Address@Address Address `uc  1 a 1 wreg ]
+"56
+[v i1I2C_Write_Address@Address Address `uc  1 a 1 0 ]
+"59
+} 0
+"34
+[v i1_I2C_Stop I2C_Stop `(v  1 e 1 0 ]
+{
+"39
+} 0
+"24
+[v i1_I2C_Start I2C_Start `(v  1 e 1 0 ]
+{
+"28
+} 0
+"11
+[v i1_Wait_IdleState Wait_IdleState `(v  1 e 1 0 ]
+{
+"14
+} 0
+"43 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 9 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 8 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 0 ]
+"70
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 11 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 10 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 9 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 8 ]
+"10
+[v ___fladd@b b `d  1 p 4 0 ]
+[v ___fladd@a a `d  1 p 4 4 ]
+"237
+} 0
+"17 D:\engazat\EmbeddedSystem\currently\interface\SwiftActProject\Water_Heater.X\TEMP_SENSOR.c
+[v _Sense_Temp Sense_Temp `(f  1 e 4 0 ]
+{
+"20
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\xxtofl.c
+[v i1___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v i1___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v i1___xxtofl@arg arg `ul  1 a 4 2 ]
+"12
+[v i1___xxtofl@exp exp `uc  1 a 1 1 ]
+"10
+[v i1___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v i1___xxtofl@val val `l  1 p 4 2 ]
+"15
+[v i1___xxtofl@sign sign `uc  1 a 1 0 ]
+"44
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S612 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S617 . 4 `i 1 wordA 2 0 `i 1 wordB 2 2 ]
+[u S620 . 4 `l 1 i 4 0 `d 1 f 4 0 `S612 1 fAsBytes 4 0 `S617 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S620  1 a 4 26 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 20 ]
+[s S689 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S692 . 2 `i 1 i 2 0 `ui 1 n 2 0 `S689 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S692  1 a 2 30 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 25 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 24 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 19 ]
+"8
+[v ___flmul@b b `d  1 p 4 6 ]
+[v ___flmul@a a `d  1 p 4 10 ]
+"205
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+{
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v __Umul8_16@word_mpld word_mpld `ui  1 a 2 6 ]
+"5
+[v __Umul8_16@product product `ui  1 a 2 4 ]
+"4
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+[v __Umul8_16@multiplicand multiplicand `uc  1 p 1 0 ]
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 8 ]
+"60
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 52 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 45 ]
+"20
+[v ___fldiv@new_exp new_exp `i  1 a 2 50 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 57 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 56 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 49 ]
+"8
+[v ___fldiv@a a `d  1 p 4 32 ]
+[v ___fldiv@b b `d  1 p 4 36 ]
+"185
+} 0
+"21 D:\engazat\EmbeddedSystem\currently\interface\SwiftActProject\Water_Heater.X\ADC.c
+[v _ADC_Read ADC_Read `(us  1 e 2 0 ]
+{
+"26
+} 0
+"52 D:\engazat\EmbeddedSystem\currently\interface\SwiftActProject\Water_Heater.X\SSD.c
+[v _Display_Num Display_Num `(v  1 e 1 0 ]
+{
+[v Display_Num@Temp Temp `uc  1 a 1 wreg ]
+[v Display_Num@Temp Temp `uc  1 a 1 wreg ]
+"54
+[v Display_Num@Temp Temp `uc  1 a 1 11 ]
+"68
+} 0
+"28
+[v _Seperate_Num Seperate_Num `(v  1 e 1 0 ]
+{
+[v Seperate_Num@Num Num `uc  1 a 1 wreg ]
+[v Seperate_Num@Num Num `uc  1 a 1 wreg ]
+"30
+[v Seperate_Num@Num Num `uc  1 a 1 10 ]
+"34
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 5 ]
+[v ___awmod@counter counter `uc  1 a 1 4 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 0 ]
+[v ___awmod@dividend dividend `i  1 p 2 2 ]
+"34
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
+} 0
+"35 D:\engazat\EmbeddedSystem\currently\interface\SwiftActProject\Water_Heater.X\SSD.c
+[v _Select_Digit Select_Digit `(v  1 e 1 0 ]
+{
+[v Select_Digit@Digit Digit `uc  1 a 1 wreg ]
+[v Select_Digit@Digit Digit `uc  1 a 1 wreg ]
+"37
+[v Select_Digit@Digit Digit `uc  1 a 1 2 ]
+"50
+} 0
+"19 D:\engazat\EmbeddedSystem\currently\interface\SwiftActProject\Water_Heater.X\HEATER_AND_COOLER.c
+[v _Disable_Heating_and_Cooling Disable_Heating_and_Cooling `(v  1 e 1 0 ]
+{
+"24
+} 0
+"21 D:\engazat\EmbeddedSystem\currently\interface\SwiftActProject\Water_Heater.X\SSD.c
+[v _Disable_Display Disable_Display `(v  1 e 1 0 ]
+{
+"27
+} 0
